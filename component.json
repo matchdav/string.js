@@ -1,8 +1,8 @@
 {
-  "name": "string.js",
+  "name": "string",
   "version": "1.8.0",
   "description": "string contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.",
-  "repo": "jprichardson/string.js",
+  "repo": "matchdav/string.js",
   "keywords": [
     "string",
     "strings",
@@ -26,6 +26,7 @@
   "dependencies": {},
   "development": {},
   "scripts": [
-    "lib/string.min.js"
+    "index.js",
+    "./lib/string.min.js"
   ]
 }
